@@ -1,0 +1,117 @@
+\documentclass{book}[14]
+\usepackage{a4}
+\usepackage{latexsym}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc} % isl stafir
+\usepackage[icelandic,english]{babel}
+\usepackage[framed,numbered,autolinebreaks,useliterate]{mcode}
+\setlength{\textwidth}{18cm} \setlength{\textheight}{24cm}
+\setlength{\oddsidemargin}{-1cm} \setlength{\evensidemargin}{-1cm}
+\setlength{\topmargin}{0cm} \setlength{\parindent}{0cm}
+\usepackage{simathe}
+
+\begin{document}
+
+
+
+
+\selectlanguage{icelandic} \pagestyle{empty}
+\begin{center}
+{\bf Háskóli Íslands \hspace{7cm} Verkfræði- og náttúruvísindasvið}\\
+
+\vspace{0.6cm}
+
+
+{\huge {\bf Töluleg greining (STÆ405G)}}\\
+\vspace{0.5cm}
+
+{\huge Dæmablað 5}\\
+\vspace{3mm}
+{\bf Skila á dæmum 1, 2 og 3 fyrir kl.~13.00 föstudaginn 24.2.2017 í viðeigandi hólf í VR-II\\
+ (Hólf 47 merkt Sigurður F.~Hafstein) \\
+Einnig nægir að sýna dæmatímakennara í hjálpartíma keyrslu á forritunum ykkar.}
+
+
+\vspace{0.2cm}
+
+
+
+\end{center}
+
+%\large
+{\bf Dæmi 1:}
+\begin{enumerate}
+\item[a)] Framkvæmið Richardson útgiskun á miðsettum mismunakvóta til þess að búa til formúlu fyrir $f'(a)$.  Skrifið formúla með $f(a)$, $f(a \pm h/2)$ og $f(a \pm h)$.  Af hvaða stigi er aðferðarvillan?
+
+\item[b)] 
+Hér á að skoða villuna í tölulegum reikningum á afleiðu fallsins $f(x)=\exp(x)$ í punktinum $x=1$ sem falli af skrefastærð $h$.  Berið saman villuna fyrir frammismun, miðsettum mismunakvóta og Richardson útgiskuninni frá lið a).  Þið getið notað eftirfarandi fall sem grunn:
+\begin{lstlisting}
+function db5d1(a)
+p=-20:0;
+length(p)
+for i=1:length(p)
+    %
+    % code
+    %
+end
+hold on
+plot(p,log(abs(err1)),'b')
+plot(p,log(abs(err2)),'r')
+plot(p,log(abs(err3)),'g')
+end
+\end{lstlisting}    
+
+
+\end{enumerate}
+
+{\bf Dæmi 2:}\
+\begin{enumerate}
+\item[a)]
+Notið normaljöfnurnar til þess að leiða út formúlu fyrir $a$ og $b$ í jöfnu bestu línu $y=a+bx$ fyrir punktasafn $(x_i,y_i)$, $i=1,2,\ldots,n$.   Gagnlegt er að átta sig á að fyrir $2\times 2$-fylki gildir
+$$
+\begin{pmatrix}
+  a & b \\
+  c & d \\
+\end{pmatrix}^{-1} =
+\frac{1}{ad-bc}\begin{pmatrix}
+  d & -b \\
+  -c & a \\
+\end{pmatrix}
+$$
+ef $ad-bc\neq0$.
+\item[b)]
+Reiknið í höndunum bestu fastana $a$ og $b$ í skilningi minnstu fervika fyrir fallið $f(x)=a\sqrt{x}+be^x$ og punktana $(0,0), (0.5,0.5), (1,1), (1.5,1.5)$. \\
+\end{enumerate}
+
+
+{\bf Dæmi 3:}\ Við táknum með $\displaystyle (\bx,\by):=\bx\cdot \by=\bx^T\by=\sum_{i=1}^dx_iy_i$ innfeldi/depilfeldi tveggja vektora $\bx,\by\in\R^d$.  Sýnið eftirfarandi staðreyndir:
+\begin{enumerate}
+\item[a)]  Ef dálkar $\bq_i$ fylkisins $Q$ mynda hornréttann grunn, þ.e.~$\displaystyle (\bq_i,\bq_j)=\delta_{ij}:=\left\{
+                                                                                                                     \begin{array}{ll}
+                                                                                                                       1, & \hbox{ef $i=j$,} \\
+                                                                                                                       0, & \hbox{ef $i\neq j$.}
+                                                                                                                     \end{array}
+                                                                                                                   \right.,
+$ þá er $Q^{-1}=Q^T$.  Svona fylki $Q$ kallast hornrétt (e.~orthogonal).
+\item[b)]  Fyrir fylki $A\in\R^{d\times d}$ gildir $(\bx,A\by)=(A^T\bx,\by)$.
+\item[c)]  Ef $Q\in\R^{d\times d}$ er hornrétt, þá er $\|Q\bx\|=\|\bx\|$ fyrir alla vektora $\bx\in\R^d$.
+
+\end{enumerate}
+
+
+
+{\bf Dæmi 4:}\ Normaljöfnuhneppið er ágætis dæmi um aðferð sem er fræðilega flott en vond í notkun.  Dæmi um þetta fæst ef við tökum punktana $x_i=1.8+0.2i$, $i=1,2,\ldots,11$ og fallið
+$f(x)=1+x+x^2+x^3+x^4+x^5+x^6+x^7$.  Notið aðferð minnstu fervika með normaljöfnunum til þess að ákvarða fastana $a_i$, $i=0,1,\ldots,7$, í $a_0+a_1x+a_2x^2+a_3x^3+a_4x^4+a_5x^5+a_6x^6+a_7x^7$,
+sem eru bestir í skilningi minnstu fervika.  Hver á lausnin að vera?  Hver er hún?\\
+
+
+
+\begin{flushright}
+{\bf Sigurður Freyr Hafstein}
+\end{flushright}
+
+
+\end{document}

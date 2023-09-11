@@ -1,0 +1,934 @@
+<html xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"><head><link rel="stylesheet" href="css/main.css"><title>
+Sigur&eth;ur Freyr Hafstein </title>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+.style5 {
+    text-align: center;
+}
+.style6 {
+    margin-left: 0px;
+}
+
+body *{
+    outline: none;
+    color: #3E0404;
+}
+.style7 {
+    margin-left: 40px;
+}
+</style>
+</head><body>
+
+<div class="main">
+<table bgcolor="#9C0000"; width="100%">
+<tbody><tr>
+
+<td class="style5"><a href="http://www.hi.is">
+<img alt="uilogo" src="hi-logo_transparent-white-en.png" width="568" height="130" align="absmiddle" ></a></td>
+
+<td class="style5" bgcolor="#3E0404" style="border: thin solid #C6AD73; width: 656px; color: #C6AD73; font-family: Calibri; font-size: x-large; text-decoration: none; text-transform: none; height: 51px;">
+<b>
+<a style="font-family: Calibri; font-size: x-large; text-decoration: none; text-transform: none; color: #C6AD73" href="http://www.hi.is/raunvisindadeild/forsida">
+Faculty of Physical Sciences</a></b><br>
+</td>
+
+
+<td class="style5" style="width: 19%">
+
+<img alt="titlephoto" src="sigurdurhafstein.jpg" width="113" height="150" style="border: thin solid #C6AD73"></td>
+
+</tr>
+</tbody></table>
+
+</div>
+
+<table width="100%">
+
+<tbody bgcolor="#ECE9D8"><tr>
+
+<td valign="top" bgcolor="#9C0000" style="width: 20%" class="style5">
+<form method="post">
+    <br>
+    <br>
+    <a href="https://notendur.hi.is/~shafstein/index.htm" button name="Abutton1" style="border: thin solid #C6AD73; height: inherit; width: 153px; background-color: #3E0404; color: #C6AD73; font-size: medium; font-family: Calibri; text-align: left; text-indent: 10px; text-transform: none; text-decoration: none;" class="style6">Home</a><br><br>
+
+<a href="https://notendur.hi.is/~shafstein/PublicationsSFH.htm" button  name="Abutton2" style="border: thin solid #C6AD73; height: inherit; width: 153px; background-color: #3E0404; color: #C6AD73; font-size: medium; font-family: Calibri; text-align: left; text-indent: 10px; text-decoration: none; text-transform: none;" class="style6">
+    Publications</a>
+
+
+    <br>
+    <br>
+    <a target="_blank" href="https://notendur.hi.is/~shafstein/Armadillo64hack.html" style="border: thin solid #C6AD73; height: inherit; width: 153px; background-color: #3E0404; color: #C6AD73; font-size: medium; font-family: Calibri; text-align: left; text-indent: 10px; text-decoration: none; text-transform: none;" class="style6">
+	Programming</a>
+	<br>
+	<br>
+<a target="_blank" href="https://notendur.hi.is/~shafstein/workshop.html" style="border: thin solid #C6AD73; height: inherit; width: 153px; background-color: #3E0404; color: #C6AD73; font-size: medium; font-family: Calibri; text-align: left; text-indent: 10px; text-decoration: none; text-transform: none;" class="style6">
+	Workshop</a><br><br>
+    &nbsp;<br>
+
+
+    <br>
+
+
+    <br>
+
+
+    <br>
+    <br>
+
+
+</form>
+
+</td>
+
+<td valign="top" bgcolor="#EBE2CF" style="font-family: Calibri; color: #000000; width: 667px;">
+
+<div class="runko">
+
+<p style="font-family: Cambria; color: #000000; font-size: large;">
+&nbsp;</p>
+<p style="color: #000000; font-size: large;" class="style7">
+<span>Sigur&eth;ur Freyr Hafstein (aka Marinosson), dr. rer. nat.</span></p>
+
+<p class="style7"><b><span>PUBLICATIONS<o:p></o:p></span></b></p>
+<p class="style7"><b><span>Monograph, peer-reviewed:<o:p></o:p></span></b></p>
+<ul>
+    <li>
+    <p class="style7"><span>S.F. Hafstein.<br>
+    </span><span><a href="AACLF.pdf">An algorithm for constructing Lyapunov functions.</a><br>
+    Electronic Journal of Differential Equations, Monograph 08 (2007).
+    <o:p></o:p>
+    </span></p>
+    </li>
+</ul>
+<p class="style7"><b><span>Journal Articles, peer-reviewed: <o:p></o:p></span>
+</b></p>
+<ul>
+
+<li>
+    <p class="style7"><span>P. Giesl, C. Osborne, and S.F. Hafstein.<br>
+   <a href="GiOsHa2020sublevel.pdf">  Automatic Determination of Connected Sublevel Sets of CPA Lyapunov
+Functions .</a><br> SIAM Journal on Applied Dynamical Systems<b> 19-2</b>, (2020), pp. 1029-1056.
+    <o:p></o:p>
+    </span></p>
+    </li>
+
+<li>
+    <p class="style7"><span>S. Albertsson, S.F. Hafstein, P. Giesl, and S. Gudmundsson.<br>
+   <a href="AGGHtriangRevised.pdf">  Simplicial complex with approximate rotational symmetry: A general class of simplicial complexes.</a><br> Journal of Computational and Applied
+Mathematics<b> 363</b>, (2020), pp. 413-425.
+    <o:p></o:p>
+    </span></p>
+    </li>
+
+
+<li>
+    <p class="style7"><span>C. Arg&aacute;ez, J.-C. Berthet, H. Björnsson, P. Giesl, and S.F. Hafstein.<br>
+   <a href="https://www.sciencedirect.com/science/article/pii/S2352711019302109?via%3Dihub">  LyapXool – a program to compute complete Lyapunov functions.</a><br> SoftwareX <b>10</b>, (2019), Article 100325.
+    <o:p></o:p>
+    </span></p>
+    </li>
+
+
+<li>
+    <p class="style7"><span>S.F. Hafstein and A. Valfells.<br>
+   <a href="HaVa2019NonDyn.pdf">  Efficient computation of Lyapunov functions for nonlinear systems by integrating numerical solutions.</a><br> Nonlinear Dynamics <b>97-3</b>, (2019), pp. 1895--1910.
+    <o:p></o:p>
+    </span></p>
+    </li>
+
+<li>
+    <p class="style7"><span>H. Bjornsson, S.F. Hafstein, P. Giesl, E. Scalas, and S. Gudmundsson.<br>
+   <a href="BGGHS2018stoLyaComp.pdf">  Computation of the stochastic basin of attraction by rigorous construction of a Lyapunov function.</a><br> Discrete and Continuous Dynamical Systems - Series B, <b>24-8</b>, (2019), pp. 4247--4269.
+    <o:p></o:p>
+    </span></p>
+    </li>
+
+<li>
+    <p class="style7"><span>S.F. Hafstein and C. Kawan.<br>
+   <a href="HaKa2019dataweb.pdf">  Numerical approximation of the data-rate limit for state estimation under communication constraints.</a><br> Journal of Mathematical Analysis and Applications  <b>473-2</b>, (2019), pp. 1280--1304.
+    <o:p></o:p>
+    </span></p>
+    </li>
+
+<li>
+    <p class="style7"><span>S. Gudmundsson and S.F. Hafstein.<br>
+   <a href="GuHa2018sdetheo.pdf">  Probabilistic Basin of Attraction and Its Estimation Using Two Lyapunov Functions.</a><br> Complexity, vol. 2018, Article ID 2895658,  (2018).
+    <o:p></o:p>
+    </span></p>
+    </li>
+
+
+
+<li>
+    <p class="style7"><span>S.F. Hafstein, S. Gudmundsson, P. Giesl, and E. Scalas.<br>
+   <a href="HaGuGiSc2017stoLya_21.pdf">  Lyapunov function computation for autonomous linear stochastic differential equations using sum-of-squares programming.</a><br> Discrete and Continuous Dynamical Systems - Series B, <b>23-2</b>, (2018), pp. 939--956.
+    <o:p></o:p>
+    </span></p>
+    </li>
+
+
+<li>
+    <p class="style7"><span>S.F. Hafstein and H. Li.<br>
+   <a href="HGaLi2016JMAA.pdf">  Computation of Lyapunov Functions for Nonautonomous
+Systems on Finite Time-Intervals by Linear Programming.</a><br> Journal of Mathematical Analysis and Applications, <b>447-2</b>, (2017), pp. 933–950.
+    <o:p></o:p>
+    </span></p>
+    </li>
+
+
+    <li>
+    <p class="style7"><span>P. Giesl and S.F. Hafstein.<br>
+   <a href="GiHa2015SIADS.pdf">  Computation and Verification of Lyapunov Functions.</a><br> SIAM Journal on Applied Dynamical Systems, <b>14-4</b>, (2015), pp. 1663-1698.
+    <o:p></o:p>
+    </span></p>
+    </li>
+
+
+
+<li>
+    <p class="style7"><span>H. Li, R. Baier, L. Gr&uuml;ne, S.F. Hafstein, and F. Wirth.<br>
+   <a href="ISS paper final.pdf">  Computation of Local ISS Lyapunov Functions with Low Gains Via Linear Programming.</a><br> Discrete and Continuous Dynamical Systems - Series B, <b>20-6</b>, (2015), pp. 2477--2495.
+    <o:p></o:p>
+    </span></p>
+    </li>
+
+
+
+
+<li>
+    <p class="style7"><span>H. Li, S.F. Hafstein, and C.M. Kellett.<br>
+   <a href="LHK14-JDEA.pdf">  Computation of continuous and piecewise affine Lyapunov functions for discrete-time systems.</a><br> Journal of Difference Equations and Applications, <b>21-6</b>, (2015), pp. 486-511.
+    <o:p></o:p>
+    </span></p>
+    </li>
+
+
+<li>
+    <p class="style7"><span>S.F. Hafstein, C.M. Kellett, and H. Li.<br>
+   <a href="HKL15-JCD-2015.pdf">  Computing continuous and piecewise affine
+Lyapunov functions for nonlinear systems.</a><br> Journal of Computational Dynamics, <b>2-2</b>, (2015), pp. 227 - 246.
+    <o:p></o:p>
+    </span></p>
+    </li>
+    <li>
+    <p class="style7"><span>P. Giesl and S.F. Hafstein.<br>
+   <a href="GiHa2015reviewPublished.pdf">  Review on computational methods for Lyapunov functions.</a><br> Discrete and Continuous Dynamical Systems - Series B, <b>20-8</b>, (2015), pp. 2291-2331.
+    <o:p></o:p>
+    </span></p>
+    </li>
+<li>
+    <p class="style7"><span>J. Bj&ouml;rnsson, P. Giesl, S.F. Hafstein, and C.M. Kellett.<br>
+   <a href="BGHK2015multiattr_web.pdf">  Computation of Lyapunov functions for systems with multiple local attractors .</a><br> Discrete and Continuous Dynamical Systems - Series A, <b>35-9</b>, (2015), pp. 4019-4039.
+    <o:p></o:p>
+    </span></p>
+    </li>
+<li>
+    <p class="style7"><span>P. Giesl and S.F. Hafstein.<br>
+   <a href="disc_revised_web.pdf">  Computation of Lyapunov functions for nonlinear discrete time systems by linear programming.</a><br> Journal of Difference Equations and Applications, <b>20-4</b>, (2014), pp. 610-640.
+    <o:p></o:p>
+    </span></p>
+    </li>
+<li>
+    <p class="style7"><span>P. Giesl and S.F. Hafstein.<br>
+   <a href="RevisedCPAmethod.pdf">  Revised CPA method to compute Lyapunov functions for nonlinear systems.</a><br> Journal of Mathematical Analysis and Applications, <b>410</b>, (2014), pp. 292-306.
+    <o:p></o:p>
+    </span></p>
+    </li>
+<li>
+    <p class="style7"><span>P. Giesl and S.F. Hafstein.<br>
+   <a href="convex-final.pdf">  Construction of a CPA contraction metric for periodic orbits using semidefinite optimization.</a><br> Nonlinear Analysis: Theory, Methods & Applications, <b>86</b>, (2013), pp. 114-134.
+    <o:p></o:p>
+    </span></p>
+    </li>
+<li>
+    <p class="style7"><span>P. Giesl and S.F. Hafstein.<br>
+    <a href="paper_nd_new.pdf">Existence of piecewise linear Lyapunov functions in arbitrary dimensions.</a><br>
+    Discrete and Continuous Dynamical Systems - Series A, <b>32-10</b>, (2012), pp. 3539-3565.
+    <o:p></o:p>
+    </span></p>
+    </li>
+<li>
+    <p class="style7"><span>P. Giesl and S.F. Hafstein.<br>
+    <a href="GieslHafsteinConstructionOfLyapunov.pdf">Construction of Lyapunov functions for nonlinear planar systems by linear programming.</a><br>
+    Journal of Mathematical Analysis and Applications, <b>388</b>, (2012), pp. 463-479.
+    <o:p></o:p>
+    </span></p>
+    </li>
+<li>
+    <p class="style7"><span>R. Baier, L. Gr&uuml;ne, and S.F Hafstein.<br>
+    <a href="lp_lyapunov_inclusion.pdf">Linear programming based Lyapunov function computation.</a><br>
+    Discrete and Continuous Dynamical Systems - Series B, <b>17-1</b>, (2012), pp. 33-56.
+    <o:p></o:p>
+    </span></p>
+    </li>
+    <li>
+    <p class="style7"><span>A. Pedersen, S.F. Hafstein, and H. J&oacute;nsson.<br>
+    <a href="paperSiamAKMC.pdf">Efficient Sampling of Saddle Points with the Minimum-Mode Following Method.</a><br>
+    SIAM Journal of Scientific Computing, <b>33-2</b>, (2011), pp. 633-652.
+    <o:p></o:p>
+    </span></p>
+    </li>
+ <li>
+    <p class="style7"><span>P. Giesl and S.F. Hafstein.<br>
+    <a href="SMRR-2010-01.pdf">Existence of piecewise affine Lyapunov functions in two dimensions.</a><br>
+    Journal of Mathematical Analysis and Applications, <b>371-1</b>, (2010), pp.
+    233-248.
+    <o:p></o:p>
+    </span></p>
+    </li>
+    <li>
+    <p class="style7"><span>S.F. Hafstein.<br>
+    <a href="CCCLTASNAODE.pdf">A constructive converse Lyapunov theorem on asymptotic stability for
+    nonlinear autonomous
+    ordinary differential equations.</a><br>
+    Dynamical Systems: An International Journal, <b>20-3</b>, (2005), pp.
+    281-299.
+    <o:p></o:p>
+    </span></p>
+    </li>
+    <li>
+    <p class="style7"><span>S.F. Hafstein.<br>
+    <a href="BLFRSÞ.pdf">Lyapunov-f&ouml;ll og reiknirit til sm&iacute;&eth;i &thorn;eirra.</a><br>
+    T&iacute;marit um raunv&iacute;sindi og st&aelig;r&eth;fr&aelig;&eth;i, <b>2-2</b>, (2004), pp. 117-130.
+    <o:p></o:p>(in Icelandic)
+    </span></p>
+    </li>
+    <li>
+    <p class="style7"><span lang="DE">R. Chrobok, A. Pottmeier, S.F. Hafstein,
+    and M. Schreckenberg.<br>
+    </span><span>Traffic Forecast in Large Scale Freeway Networks.<br>
+    International Journal of Bifurcation and Chaos <b>14-6</b> (2004), pp.
+    1995-2005.
+    <o:p></o:p>
+    </span></p>
+    </li>
+    <li>
+    <p class="style7"><span lang="DE">S.F. Hafstein, R. Chrobok, A. Pottmeier,
+    M. Schreckenberg, and F. Mazur.<br>
+    </span><span><span lang="de"><a href="DHRCATSMAFTIS.pdf">A High-Resolution Cellular Automata Traffic Simulation Model
+    with Application</a></span><br>
+    in a Freeway Traffic Information System.<br>
+    Computer-Aided Civil and Infrastructure Engineering <b>19-5</b> (2004), pp.
+    338-350.
+    <o:p></o:p>
+    </span></p>
+    </li>
+    <li>
+    <p class="style7"><span>S.F. Hafstein.<br>
+    <a href="ECCLTES.pdf">A constructive converse Lyapunov theorem on exponential stability.</a><br>
+    Discrete and Continuous Dynamical Systems - Series A <b>10-3</b> (2004), pp.
+    657-678.
+    <o:p></o:p>
+    </span></p>
+    </li>
+    <li>
+    <p class="style7"><span>F. Mazur and S.F. Hafstein.<br>
+   Verkehrslage via Internet: autobahn.NRW.</a><br>
+    Logistik Management <b>6-4</b> (2004), pp.
+    60-69. (in German)
+    <o:p></o:p>
+    </span></p>
+    </li>
+    <li>
+    <p class="style7"><span>S.F. Marinosson.<br>
+    <a href="ELFCODELP.pdf">Lyapunov function construction for ordinary differential equations with
+    linear programming.</a><br>
+    Dynamical Systems: An International Journal <b>17</b> (2002), pp. 137-150.
+    <o:p></o:p>
+    </span></p>
+    </li>
+    <li>
+    <p class="style7"><span>T. Jonsson and S.F. Marinosson.<br>
+    Scaling and correlation functions in a model of a two-dimensional earthquake
+    fault.<br>
+    Physica Scripta <b>58</b> (1998), pp. 282-288.
+    <o:p></o:p>
+    </span></p>
+    </li>
+    <li>
+    <p class="style7"><span>T. Jonsson and S.F. Marinosson. <br>
+    Correlation functions and power spectra in a model of an earthquake fault.<br>
+    Physics Letters A <b>207</b> (1995), pp. 165-172.
+    <o:p></o:p>
+    </span></p>
+    </li>
+</ul>
+<p class="style7"><b><span>Book Chapters, peer-reviewed:<o:p></o:p></span></b></p>
+<ul>
+
+ <li>
+   <p class="style7"><span lang="DE">C. Arg&aacute;ez, P. Giesl, and S.F. Hafstein. <sup><br>
+    </sup></span><span><a href="AGH2021gradient.pdf">	
+Complete Lyapunov Functions:
+Determination of the Chain-recurrent set using the
+Gradient.</a><br>
+    In: Simulation and Modeling Methodologies, Technologies and Applications <br>
+    Series: Advances in Intelligent Systems and Computing 1260<br>
+    eds. M. Obaidat, T. Ören, and F. De Rango,
+Springer 2021. pp. 104-121.<br>
+    <o:p></o:p>
+    </span></p>
+    </li>
+
+
+ <li>
+    <p class="style7"><span lang="DE">S.F. Hafstein. <sup><br>
+    </sup></span><span><a href="ICCS2019HaV2.pdf">	
+Numerical Analysis Project in ODEs
+for Undergraduate Students.</a><br>
+    In: Computational Science - ICCS 2019 <br>
+        19th International Conference, Faro, Portugal, June 12-14, 2019, Proceedings, Part V <br>
+    Series: Lecture Notes in Computer Science 11540<br>
+    eds. J. Rodrigues, P. Cardoso, J. Monteiro, R. Lam, V. Krzhizhanovskaya, M. Lees, J. Dongarra, and P. Sloot <br>
+Springer 2019. pp. 421-434.<br>
+    <o:p></o:p>
+    </span></p>
+    </li>
+
+
+ <li>
+    <p class="style7"><span lang="DE">S.F. Hafstein. <sup><br>
+    </sup></span><span><a href="Ha2019springerSIMUL.pdf">	
+Fast Algorithms for Computing Continuous Piecewise Affine Lyapunov Functions.</a><br>
+    In: Simulation and Modeling Methodologies, Technologies and Applications <br>
+    Series: Advances in Intelligent Systems and Computing 873<br>
+    eds. M. Obaidat, T. Ören, and F. De Rango,
+Springer 2019. pp. 274-299.<br>
+    <o:p></o:p>
+    </span></p>
+    </li>
+
+ <li>
+    <p class="style7"><span lang="DE">C. Arg&aacute;ez, P. Giesl, and S.F. Hafstein. <sup><br>
+    </sup></span><span><a href="ArGiHa2019springerSIMUL.pdf">	Complete Lyapunov Functions: Computation and Applications.</a><br>
+    In: Simulation and Modeling Methodologies, Technologies and Applications <br>
+    Series: Advances in Intelligent Systems and Computing 873<br>
+    eds. M. Obaidat, T. Ören, and F. De Rango,
+Springer 2019. pp. 200-221.<br>
+    <o:p></o:p>
+    </span></p>
+    </li>
+
+ <li>
+    <p class="style7"><span lang="DE">H. Bjornsson and S.F. Hafstein. <sup><br>
+    </sup></span><span><a href="BjHa2018sotlyaDSTAspringer.pdf">	Lyapunov functions for almost sure exponential stability.</a><br>
+    In: Dynamical Systems in Theoretical Perspective <br>
+    Series: Springer Proceedings in Mathematics and Statistics 248<br>
+    ed. J. Awrejcewicz,
+Springer 2018. pp. 51-61.<br>
+    <o:p></o:p>
+    </span></p>
+    </li>
+
+ <li>
+    <p class="style7"><span lang="DE">C. Arg&aacute;ez, P. Giesl, and S.F. Hafstein. <sup><br>
+    </sup></span><span><a href="ArGiHa2018complyaDSTAspringer.pdf">	Computational approach for complete Lyapunov functions.</a><br>
+    In: Dynamical Systems in Theoretical Perspective <br>
+    Series: Springer Proceedings in Mathematics and Statistics 248<br>
+    ed. J. Awrejcewicz,
+Springer 2018. pp. 1-11.<br>
+    <o:p></o:p>
+    </span></p>
+    </li>
+
+ <li>
+    <p class="style7"><span lang="DE">P. Giesl and S.F Hafstein. <sup><br>
+    </sup></span><span><a href="finitetimeLya.pdf">Local Lyapunov Functions for periodic and finite-time ODEs.</a><br>
+    In: Recent Trends in Dynamical Systems <br>
+     Series: Springer Proceedings in Mathematics and Statistics<br>
+    eds. A. Johann, H.Kruse, F. Rupp, and S. Schmitz,
+Springer 2013. pp. 125-152.<br>
+    <o:p></o:p>
+    </span></p>
+    </li>
+    <li>
+    <p class="style7"><span lang="DE">R. Selten, M. Schreckenberg, T. Chmura,
+    T. Pitz, S. Kube, <br>
+    S.F. Hafstein, R. Chrobok, A. Pottmeier, and J. Wahle.<br>
+    </span><span>Experimental Investigation of Day-to-Day Route-Choice Behavior
+    <br>
+    and Network Simulations of Autobahn Traffic in North Rhine-Westphalia.<br>
+    In: Human Behaviour and Traffic Networks, <br>
+    eds. M. Schreckenberg and R. Selten,<br>
+    Springer 2004, pp. 1-21.<br>
+    (R. Selten received the Nobel-Prize in Economics 1994)
+    <o:p></o:p>
+    </span></p>
+    </li>
+</ul>
+<p class="style7"><b><span>Conference Proceedings, peer-reviewed:<o:p></o:p></span></b></p>
+<ul>
+ <li>
+    <p class="style7"><span lang="DE">C. Arg&aacute;ez, P. Giesl, and S.F. Hafstein. <sup><br>
+    </sup></span><span> <a href="ArGiHa2019DSTA.pdf">Critical tolerance evolution: Classification of the chain-recurrent set.</a><br>
+    In:Proceedings of the 15th International Conference on Dynamical Systems: Theory and Applications (DSTA), Volume: Mathematical and Numerical Aspects of Dynamical System Analysis, <br> Lodz, Poland, 2019, pp. 21-32.<br>
+    <o:p></o:p>
+    </span></p>
+    </li>
+
+ <li>
+    <p class="style7"><span lang="DE">C. Arg&aacute;ez, P. Giesl, and S.F. Hafstein. <sup><br>
+    </sup></span><span> <a href="SIMULTECH_2019_33.pdf">Middle Point Reduction of the Chain-recurrent Set.</a><br>
+    In: Proceedings of the 9th International Conference on Simulation and Modeling Methodologies, Technologies and Applications (SIMULTECH), <br> Prague, Czech Republic, 2019, pp. 141-152.<br>
+    <o:p></o:p>
+    </span></p>
+    </li>
+
+ <li>
+        <p class="style7"><span lang="DE">C. Arg&aacute;ez, P. Giesl, and S.F. Hafstein. <sup><br>
+    </sup></span><span> <a href="AGH2019ICINCO.pdf">Clustering Algorithm for Generalized Recurrences using Complete Lyapunov Functions.</a><br>
+    In: Proceedings of the 16th International Conference on Informatics in Control, Automation and Robotics (ICINCO),  <br> Prague, Czech Republic, 2019, pp. 138-146.<br>
+    <o:p></o:p>
+    </span></p>
+    </li>
+
+ <li>
+    <p class="style7"><span lang="DE">H. Bjornsson and S.F. Hafstein. <sup><br>
+    </sup></span><span> <a href="BjHa2019ICINCO.pdf">Algorithm and Software to Generate Code for
+Wendland Functions in Factorized Form.</a><br>
+    In: Proceedings of the 16th International Conference on Informatics in Control, Automation and Robotics (ICINCO),  <br> Prague, Czech Republic, 2019, pp. 156-162.<br>
+    <o:p></o:p>
+    </span></p>
+    </li>
+
+ <li>
+    <p class="style7"><span lang="DE">S.F. Hafstein. <sup><br>
+    </sup></span><span> <a href="Ha2019ICINCO.pdf">Lyapunov Functions for Linear Stochastic Differential Equations:
+BMI Formulation of the Conditions.</a><br>
+    In: Proceedings of the 16th International Conference on Informatics in Control, Automation and Robotics (ICINCO),  <br> Prague, Czech Republic, 2019, pp. 147-155.<br>
+    <o:p></o:p>
+    </span></p>
+    </li>
+
+
+
+ <li>
+    <p class="style7"><span lang="DE">S.F. Hafstein.<sup><br>
+    </sup></span><span> <a href="Ha2019ECC.pdf">Numerical ODE Solvers and Integration Methods in the Computation of CPA Lyapunov Functions. </a><br>
+ In: Proceedings of the 18th European Control Conference (ECC), <br> Napoli, Italy, 2019, pp. 1136-1141.<br>
+    <o:p></o:p>
+    </span></p>
+    </li>
+
+
+ <li>
+    <p class="style7"><span lang="DE">C. Arg&aacute;ez, P. Giesl, and S.F. Hafstein.<sup><br>
+    </sup></span><span> <a href="AGH2019ECC.pdf">Improved estimation of the chain-recurrent set. </a><br>
+ In: Proceedings of the 18th European Control Conference (ECC), <br> Napoli, Italy, 2019, pp. 1622-1627.<br>
+    <o:p></o:p>
+    </span></p>
+    </li>
+
+
+ <li>
+    <p class="style7"><span lang="DE">C. Arg&aacute;ez, P. Giesl, and S.F. Hafstein.<sup><br>
+    </sup></span><span> <a href="ArGiHa2018CDCcompLya3d.pdf">Computation of Complete Lyapunov Functions for Three-Dimensional Systems. </a><br>
+    In: Proceedings of the 57rd IEEE Conference on Decision and Control (CDC), <br> Miami Beach, FL, USA, 2018, pp. 4059-4064.<br>
+    <o:p></o:p>
+    </span></p>
+    </li>
+
+
+
+ <li>
+    <p class="style7"><span lang="DE">C. Arg&aacute;ez, P. Giesl, and S.F. Hafstein. <sup><br>
+    </sup></span><span> <a href="SIMULTECH_2018_17.pdf">Iterative Construction of Complete Lyapunov Functions.</a><br>
+    In: Proceedings of the 8th International Conference on Simulation and Modeling Methodologies, Technologies and Applications (SIMULTECH), <br> Porto, Portugal, 2018, pp. 211-222.<br>
+    <o:p></o:p>
+    </span></p>
+    </li>
+
+ <li>
+    <p class="style7"><span lang="DE">H. Bjornsson and S.F. Hafstein. <sup><br>
+    </sup></span><span> <a href="CTDE_2018_8.pdf">Verification of a Numerical Solution to a Collocation Problem.</a><br>
+    In Proceedings of the 15th International Conference on Informatics in Control, Automation and Robotics (ICINCO),  <br> Porto, Portugal, 2018, pp. 587-594.<br>
+    <o:p></o:p>
+    </span></p>
+    </li>
+
+
+ <li>
+    <p class="style7"><span lang="DE">P. Giesl, C. Arg&aacute;ez, S.F. Hafstein, and H. Wendland. <sup><br>
+    </sup></span><span> <a href="CTDE_2018_5.pdf">Construction of a Complete Lyapunov Function using Quadratic Programming.</a><br>
+    In Proceedings of the 15th International Conference on Informatics in Control, Automation and Robotics (ICINCO),  <br> Porto, Portugal, 2018, pp. 560-568.<br>
+    <o:p></o:p>
+    </span></p>
+    </li>
+
+
+
+ <li>
+    <p class="style7"><span lang="DE">H. Bjornsson, P. Giesl, S. Gudmundsson, and S.F. Hafstein. <sup><br>
+    </sup></span><span> <a href="CTDE_2018_7.pdf">Local Lyapunov Functions for Nonlinear Stochastic Differential Equations by Linearization.</a><br>
+    In Proceedings of the 15th International Conference on Informatics in Control, Automation and Robotics (ICINCO), <br>  Porto, Portugal, 2018, pp. 579-586.<br>
+    <o:p></o:p>
+    </span></p>
+    </li>
+
+
+ <li>
+    <p class="style7"><span lang="DE">S. Hafstein and A. Valfells. <sup><br>
+    </sup></span><span> <a href="HaVaDSTA2017v2.pdf">Study of dynamical systems by fast numerical computation of
+Lyapunov functions.</a><br>
+    In: Proceedings of the 14th International Conference on Dynamical Systems: Theory and Applications (DSTA), <br> Volume: Mathematical and Numerical Aspects of Dynamical System Analysis<br> Lodz, Poland, 2017, pp. 229-240.<br>
+    <o:p></o:p>
+    </span></p>
+    </li>
+
+ <li>
+    <p class="style7"><span lang="DE">S. Hafstein. <sup><br>
+    </sup></span><span> <a href="SIMULTECH_2017_72.pdf">Efficient Algorithms for Simplicial Complexes Used in the Computation
+of Lyapunov Functions for Nonlinear Systems.</a><br>
+    In: Proceedings of the 7th International Conference on Simulation and Modeling Methodologies, Technologies and Applications (SIMULTECH), <br> Madrid, Spain, 2017, pp. 398-409.<br>
+    <o:p></o:p>
+    </span></p>
+    </li>
+ <li>
+    <p class="style7"><span lang="DE">C. Arg&aacute;ez, S. Hafstein, and P. Giesl. <sup><br>
+    </sup></span><span> <a href="SIMULTECH_2017_50.pdf">Wendland Functions:
+A C++ Code to Compute Them.</a><br>
+    In: Proceedings of the 7th International Conference on Simulation and Modeling Methodologies, Technologies and Applications (SIMULTECH), <br> Madrid, Spain, 2017, pp. 323-330.<br>
+    <o:p></o:p>
+    </span></p>
+    </li>
+
+
+ <li>
+    <p class="style7"><span lang="DE">C. Arg&aacute;ez, P. Giesl, and S. Hafstein. <sup><br>
+    </sup></span><span> <a href="SIMULTECH_2017_45.pdf">Analysing Dynamical Systems:
+Towards Computing Complete Lyapunov Functions.</a><br>
+    In: Proceedings of the 7th International Conference on Simulation and Modeling Methodologies, Technologies and Applications (SIMULTECH), <br> Madrid, Spain, 2017, pp. 134-144.<br>
+    <o:p></o:p>
+    </span></p>
+    </li>
+
+
+
+ <li>
+    <p class="style7"><span lang="DE">J. Björnsson and S. Hafstein.<sup><br>
+    </sup></span><span> <a href="BjHa2017ICCSpublished.pdf">Efficient Lyapunov Function computation for systems with multiple exponentially stable equilibria.</a><br>
+     Procedia Computer Science <b>108 </b> (2017), pp. 655-664  <br>
+     Proceedings of the International Conference on Computational Science (ICCS),  Zurich, Switzerland, 2017. <br>
+    </span></p>
+    </li>
+ <li>
+    <p class="style7"><span lang="DE">J. Björnsson, S. Gudmundsson and S. Hafstein.<sup><br>
+    </sup></span><span> <a href="BGH2015micnonCPP.pdf">Class library in C++ to compute Lyapunov functions for nonlinear systems.</a><br>
+   In: Proceedings of the 1st Conference on Modelling, Identification and Control of Nonlinear Systems (MICNON), <br> Saint-Petersburg, Russia, 2015,  no. 0155, pp. 788-793.<br>
+   <a href="MICNON2015CPP.rar"> C++ library and programs discussed paper.</a>
+    <o:p></o:p>
+    </span></p>
+    </li>
+
+
+
+
+ <li>
+    <p class="style7"><span lang="DE">S. Gudmundsson and S. Hafstein.<sup><br>
+    </sup></span><span> <a href="GH2015micnonMATLAB.pdf">Lyapunov Function Verification: MATLAB Implementation.</a><br>
+   In: Proceedings of the 1st Conference on Modelling, Identification and Control of Nonlinear Systems (MICNON), <br> Saint-Petersburg, Russia, 2015,  no. 0235, pp. 806-811.<br>
+   <a href="M2015M.rar"> Matlab programs used in paper.</a>
+    <o:p></o:p>
+    </span></p>
+    </li>
+
+ <li>
+    <p class="style7"><span lang="DE">H. Li, S. Hafstein, and C. Kellett.<sup><br>
+    </sup></span><span> <a href="LHK14-CDC.pdf">Computation of Lyapunov Functions for Discrete-Time Systems using
+the Yoshizawa Construction.</a><br>
+    In: Proceedings of the 53rd IEEE Conference on Decision and Control (CDC), <br> Los Angeles, CA, USA, 2014, pp. 5512-5517.<br>
+    <o:p></o:p>
+    </span></p>
+    </li>
+
+
+
+    <li>
+    <p class="style7"><span lang="DE">J. Bj&ouml;rnsson, P. Giesl, S. Hafstein, C. Kellett, and H. Li. <sup><br>
+    </sup></span><span> <a href="BGHKL14-CDC.pdf">Computation of continuous and piecewise affine Lyapunov functions by
+numerical approximations of the Massera construction.</a><br>
+    In: Proceedings of the 53rd IEEE Conference on Decision and Control (CDC), <br> Los Angeles, CA, USA, 2014, pp. 5506-5511.<br>
+    <o:p></o:p>
+    </span></p>
+    </li>
+
+ <li>
+    <p class="style7"><span lang="DE">R. Baier and S.F. Hafstein. <sup><br>
+    </sup></span><span> <a href="BaHa2014MTNSclf.pdf">Numerical Computation of Control Lyapunov Functions in the Sense of Generalized Gradients.</a><br>
+    In: Proceedings of the 21st International Symposium on Mathematical Theory of Networks and Systems (MTNS),<br> Groningen, The Netherlands, 2014, no. 0232, pp. 1173-1180.<br>
+    <o:p></o:p>
+    </span></p>
+        <li>
+    <p class="style7"><span lang="DE">J. Bj&ouml;rnsson, P. Giesl, and S. Hafstein. <sup><br>
+    </sup></span><span> <a href="BGH2014MTNSalgcom.pdf">Algorithmic verification of approximations to complete Lyapunov functions.</a><br>
+    In: Proceedings of the 21st International Symposium on Mathematical Theory of Networks and Systems (MTNS),<br> Groningen, The Netherlands, 2014, no. 0180, pp. 1181-1188.<br>
+    <o:p></o:p>
+    </span></p>
+    </li>
+
+ <li>
+    <p class="style7"><span lang="DE">H. Li, R. Baier, L. Gr&uuml;ne, S.F. Hafstein, and F. Wirth. <sup><br>
+    </sup></span><span> <a href="MTNS14_0158_FI.pdf">Computation of Local ISS Lyapunov Functions Via Linear Programming.</a><br>
+    In: Proceedings of the 21st International Symposium on Mathematical Theory of Networks and Systems (MTNS),<br> Groningen, The Netherlands, 2014, no. 0158, pp. 1189-1195.<br>
+    <o:p></o:p>
+    </span></p>
+    </li>
+
+
+ <li>
+    <p class="style7"><span lang="DE">S. Hafstein, C.M. Kellett, and H. Li. <sup><br>
+    </sup></span><span> <a href="HKL2014ACC.pdf">Continuous and Piecewise Affine Lyapunov Functions using the Yoshizawa Construction.</a><br>
+    In: Proceedings of the 2014 American Control Conference (ACC),<br> Portland (OR), USA, 2014, no. 0170, pp. 548-553.<br>
+    <o:p></o:p>
+    </span></p>
+    </li>
+ <li>
+    <p class="style7"><span lang="DE">P. Giesl and S. Hafstein. <sup><br>
+    </sup></span><span> <a href="GiHa2014ACC.pdf">Implementation of a Fan-Like Triangulation for the CPA Method to compute Lyapunov Functions.</a><br>
+    In: Proceedings of the 2014 American Control Conference (ACC),<br> Portland (OR), USA, 2014, no. 0202, pp. 2989-2994.<br>
+    <o:p></o:p>
+    </span></p>
+    </li>
+
+ <li>
+    <p class="style7"><span lang="DE">S.F. Hafstein. <sup><br>
+    </sup></span><span> <a href="SCImplementationShort.pdf">Implementation of Simplicial Complexes for CPA functions in C++11 using the Armadillo Linear Algebra Library.</a><br>
+    In: Proceedings of 4th International Conference on Simulation and Modeling Methodologies, Technologies and Applications (SIMULTECH), <br> Reykjavik, Iceland, 2013, pp. 49-57.<br>
+    <o:p></o:p>
+    </span></p>
+    </li>
+ <li>
+    <p class="style7"><span lang="DE">R. Baier, L. Gr&uuml;ne, and S.F. Hafstein. <sup><br>
+    </sup></span><span><a href="nolcos_2010.pdf">Computing Lyapunov functions for strongly asymptotically stable differential inclusions.</a><br>
+    In: Proceedings of NOLCOS 2010,<br> Bologna, Italy, 2010.<br>
+    <o:p></o:p>
+    </span></p>
+    </li>
+    <li>
+    <p class="style7"><span lang="DE">D. Weber, R.&nbsp;Chrobok, S. Hafstein, F.
+    Mazur, A. Pottmeier, and M.&nbsp;Schreckenberg.<sup><br>
+    </sup></span><span>OLSIM: Inter-urban Traffic Information.<br>
+    In: Innovative Internet Community Systems: 4th International Workshop,<br>
+    Guadalajara, Mexico, 2004, pp. 296-306.
+    <o:p></o:p>
+    </span></p>
+    </li>
+    <li>
+    <p class="style7"><span lang="DE">F. Mazur, R. Chrobok, S.F. Hafstein, A.
+    Pottmeier, and M. Schreckenberg.<br>
+    </span><span>Future of Traffic Information - Online-Simulation of a Large
+    Scale Freeway Network.<br>
+    In: IADIS International Conference WWW/Internet 2004, Proceedings Volume 1.
+    <br>
+    Madrid, Spain, October 2004, pp. 665-672.
+    <o:p></o:p>
+    </span></p>
+    </li>
+    <li>
+    <p class="style7"><span lang="DE">F. Mazur, R. Chrobok, S.F. Hafstein, A.
+    Pottmeier, and M. Schreckenberg.<br>
+    </span><span>Online-Simulation North Rhine-Westphalia - Traffic Information
+    in a Large Scale Freeway Network.<br>
+    In: 2nd Conference of the Euro-regional Projects (i2tern),<br>
+    Intelligent Infrastructure for the Trans-European Road Network,<br>
+    Vienna, Austria, 2004, pp. 140-144.
+    <o:p></o:p>
+    </span></p>
+    </li>
+    <li>
+    <p class="style7"><span lang="DE">R. Chrobok, S.F. Hafstein, A. Pottmeier,
+    and M. Schreckenberg.<br>
+    </span><span>OLSIM: Future Traffic Information.<br>
+    In: Proceedings of the IASTED International Conference,<br>
+    Applied Simulation and Modelling.<br>
+    Rhodes, Greece, 2004, doc. nr. 443-142 on CD.
+    <o:p></o:p>
+    </span></p>
+    </li>
+    <li>
+    <p class="style7"><span lang="DE">A. Pottmeier, S.F. Hafstein, R. Chrobok,
+    J. Wahle, and M. Schreckenberg.<br>
+    </span><span>The Traffic State of the Autobahn Network of North
+    Rhine-Westphalia: <br>
+    An Online Traffic Simulation.<br>
+    In: Proceedings of the 10th World Congress and Exhibition on<br>
+    Intelligent Transport Systems and Services,<br>
+    Solutions for Today... and Tomorrow, <br>
+    Madrid, Spain, 2003, doc. nr. 2377 on CD.
+    <o:p></o:p>
+    </span></p>
+    </li>
+    <li>
+    <p class="style7"><span lang="DE">M. Schreckenberg, R. Chrobok, S.F.
+    Hafstein, and A. Pottmeier.<br>
+    </span><span>OLSIM - Traffic Forecast and Planning using Simulations.<br>
+    </span><span lang="DE">In: SCS/ASIM - 17. Symposium in Magdeburg,
+    Simulationstechnik,<br>
+    ed. R. Hohmann,<br>
+    Magdeburg, Germany, 2003, pp. 11-18. </span><span>
+    <o:p></o:p>
+    </span></p>
+    </li>
+    <li>
+    <p class="style7"><span lang="DE">S.F. Hafstein, R. Chrobok, A. Pottmeier,
+    J. Wahle, and M. Schreckenberg.<br>
+    </span><span>Cellular Automaton Modeling of the Autobahn Traffic in North
+    Rhine - Westphalia.<br>
+    In: Proceedings of the 4-th MATHMOD Vienna, 4-th IMCAS Symposium on<br>
+    Mathematical Modelling, ARGESIM Report no. 24,<br>
+    ed. I. Troch and F. Breitenecker,<br>
+    Vienna, Austria, 2003, pp. 1322-1331.
+    <o:p></o:p>
+    </span></p>
+    </li>
+    <li>
+    <p class="style7"><span lang="DE">S.F. Marinosson, R. Chrobok, A.
+    Pottmeier, J. Wahle, and M. Schreckenberg.<br>
+    </span><span>Simulation Framework for the Autobahn Traffic in North
+    Rhine-Westphalia.<br>
+    In: Cellular Automata, proceedings of ACRI 2002, the 5th International <br>
+    Conference on Cellular Automata for Research and Industry, <br>
+    ed. S. Bandini, B. Chopard and M. Tomassini,<br>
+    Geneve, Switzerland, 2002, pp. 315-324.
+    <o:p></o:p>
+    </span></p>
+    </li>
+    <li>
+    <p class="style7"><span lang="DE">S.F. Marinosson, R. Chrobok, A.
+    Pottmeier, J. Wahle, and M. Schreckenberg.<br>
+    Simulation des Autobahnverkehrs in NRW.<br>
+    In: SCS/ASIM - 16. Symposium in Rostock,<br>
+    Simulationstechnik,<br>
+    ed. D. Tavangarian and R. Gr&uuml;tzner,<br>
+    Rostock, Germany, 2002, pp. 517-523.<br>
+    </span><span>(in German)
+    <o:p></o:p>
+    </span></p>
+    </li>
+    <li>
+    <p class="style7"><span lang="DE">J. Wahle, R. Chrobok, A. Pottmeier,
+    S.F. Marinosson, and M. Schreckenberg.<br>
+    </span><span>An Online Simulation for the Freeway Network of <br>
+    North Rhine-Westphalia Based on Real-World Traffic Data<br>
+    In: GI-Technologien f&uuml;r Verkehr und Logistik, IfGI-Prints 13,<br>
+    ed. J. M&ouml;ltgen and A. Wytzisk,<br>
+    M&uuml;nster, Germany, 2002, pp. 193-210.
+    <o:p></o:p>
+    </span></p>
+    </li>
+    <li>
+    <p class="style7"><span lang="DE">R. Chrobok, A. Pottmeier, S.F.
+    Marinosson, and M. Schreckenberg.<br>
+    </span><span>On-Line Simulation and Traffic Forecast: Applications and
+    Results.<br>
+    In: 6th IASTED International Conference,<br>
+    Internet and Multimedia Systems and Applications,<br>
+    ed. M. H. Hamza,<br>
+    Kaua'i, Hawaii, USA, 2002, pp. 113-118.
+    <o:p></o:p>
+    </span></p>
+    </li>
+    <li>
+    <p class="style7"><span>O.v. Laak, S.F. Marinosson, T. M&ouml;llers, and H.J.
+    Wenz.<br>
+    Control of a Chemical Process by Multi Regional State Space Systems.<br>
+    In: Proceedings of the European Control Conference 1999, f1020-5, Karlsruhe,
+    Germany.
+    <o:p></o:p>
+    </span></p>
+    </li>
+    <li>
+    <p class="style7"><span>O.v. Laak, S.F. Marinosson, T. M&ouml;llers, and H.J.
+    Wenz.<br>
+    Stability of Fuzzy Systems based on an Approximation Argument.<br>
+    In: Proceedings of EUFIT 1999, AC1-1, Aachen, Germany.
+    <o:p></o:p>
+    </span></p>
+    </li>
+</ul>
+<p class="style7"><b><span>Articles, not peer-reviewed:<o:p></o:p></span></b></p>
+<ul>
+    <li>
+    <p class="style7"><span lang="DE">S.F. Hafstein.<br>
+    <a href="Ha2017IMS in EMS.pdf">The Icelandic Mathematical Society.</a><br>
+    EMS Newsletter (European Mathematical Society),  <b>106</b>,  (2017), p. 32.<br>
+    </span>
+    </li>
+    <li>
+    <p class="style7"><span lang="DE">S.F. Hafstein.<br>
+    <a href="1302.3411.pdf">Continuity of scalar-fields characterized by smooth
+        paths fulfilling |s(t)||s'(t)|<+\infty. </a><br>
+    arXiv:1302.3411v1  (2013).<br>
+    </span>
+    </li>
+    <li>
+    <p class="style7"><span lang="DE">R. Chrobok, S.F. Hafstein, A. Pottmeier,
+    and M. Schreckenberg.<br>
+    Simulation des Autobahnverkehrs in NRW:<br>
+    Aktuelle Verkehrslage und -prognose via Internet.<br>
+    In: it_trends: potenziale der metropolregion ruhr, pp. 13-22, Projekt Ruhr,
+    Essen (2004).<br>
+    </span><span>(in German)
+    <o:p></o:p>
+    </span></p>
+    </li>
+    <li>
+    <p class="style7"><span>S.F. Hafstein.<br>
+    A constructive converse Lyapunov theorem on asymptotically<br>
+    stable differential equations' equilibria.<br>
+    </span><span lang="DE">The nonlinear autonomous case.<br>
+    Schriftenreihe des Instituts f&uuml;r Mathematik, University Duisburg-Essen<br>
+    SM-DU-576, (2004). </span><span>
+    <o:p></o:p>
+    </span></p>
+    </li>
+    <li>
+    <p class="style7"><span lang="DE">G. T&ouml;rner, O. Annen, and S.F.
+    Marinosson. <br>
+    Bestimmung optimaler Standorte<br>
+    zur Erfassung von Verkehrsfl&uuml;ssen am Beispiel des G&uuml;terzugnetzes von DB
+    Cargo.<br>
+    </span><span>OR-News <b>11</b> (2001), pp. 23-26.<br>
+    (in German)
+    <o:p></o:p>
+    </span></p>
+    </li>
+</ul>
+
+<p class="style7"><b><span>Thesis:<o:p></o:p></span></b></p>
+<ul>
+    <li>
+    <p class="style7"><span>S.F. Marinosson.<br>
+    <a href="Marinossondiss.pdf">Stability Analysis of Nonlinear Systems with Linear Programming:<br>
+    A Lyapunov Functions Based Approach.</a><br>
+    Doctoral Thesis, Gerhard-Mercator-University Duisburg (2002), Duisburg,
+    Germany.
+    <o:p></o:p>
+    </span></p>
+    </li>
+    <li>
+    <p class="style7"><span>S.F. Marinosson.<br>
+    The Mathematics of Turbulence.<br>
+    Diploma Thesis, Gerhard-Mercator-University Duisburg (1998), Duisburg,
+    Germany.
+    <o:p></o:p>
+    </span></p>
+    </li>
+</ul>
+
+</div>
+
+</td>
+</tr>
+    <tr>
+
+<td valign="top" bgcolor="#9C0000" style="width: 20%">
+&nbsp;</td>
+
+<td valign="top" bgcolor="#9C0000" style="font-family: Calibri; color: #000000; width: 667px;">
+
+&nbsp;</td>
+</tr>
+</tbody></table>
+</body></html>

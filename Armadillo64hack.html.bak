@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+  <title>Armadillo with BLAS and LAPACK in 64 bit Visual C++ projects</title>
+
+
+</head><body style="height: 127px;">
+<br>
+
+<br>
+
+<h1 style="text-align: center;"><big>Armadillo with BLAS and LAPACK in 64 bit Visual C++ projects</big></h1>
+
+
+<p class="MsoPlainText" style=""><b style=""><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; color: black;"> 
+
+Update 25. August 2017:  With Scilab 6 the tides have turned again and using blasplus.dll and lapack.dll from Scilab is much faster.  You can essentially use the description below with obvious adaptations for newer versions of Armadillo, Scilab, Visual Studio, and Windows.  Note also that you do not need to add the Scilab\bin folder to the path variable. Adding "PATH=C:\Program Files\scilab-6.0.0\bin;%PATH%" (if you this is the correct folder on your computer) to "Configuration Properties->Debugging->Environment" has the same effect.  I also tried using "libopenblas64_.dll" (includes BLAS and at least the most important parts of LAPACK) form "Julia" and "libmwblas.dll" and "libmwlapack.dll" from 
+Matlab.  For Ryzen 1800X the Julia .dll was about 20% faster than the intel optimized .dll from Scilab.  The Matlab .dll seemed to be marginally faster on i9 7900X (maybe 7%).  Linking to these .dll-s can be done similarly as with Scilab, but you have to generate your own .lib files for them.  See <a target="_blank" href="https://wiki.videolan.org/GenerateLibFromDll"> and, of course use "/machine:x64" and not /machine:x86
+
+
+Update:  Since I put this description online Yili Zhao has compiled very fast .dll-s for blas and lapack for Visual C++ projects and put them online for download.  He made them in 32bit and 64bit and both as release and debug versions.  You might want to consider using them instead of the hack described below <a target="_blank" href="http://ylzhao.blogspot.com/2013/10/blas-lapack-precompiled-binaries-for.html">  http://ylzhao.blogspot.com/2013/10/blas-lapack-precompiled-binaries-for.html</a>  Thanks Yili for the excellent work!
+    <o:p></o:p></span></b></p>
+
+
+<p class="MsoPlainText" style=""><b style=""><span style="font-size: 11pt; font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; color: black;">I use the excellent Armadillo Linear Algebra Library (<a target="_blank" href="http://arma.sourceforge.net/">http://arma.sourceforge.net/ </a>) in my research projects, where I implement algorithms to compute Lyapunov functions.  I develop them in the free Visual Studio Express 2012 for Windows desktop.  Armadillo uses LAPACK and BLAS for many of the calculations and there are .lib and .dll-files for Visual C++ included with Armadillo.  However, only 32 bit versions.  As I need more memory in my programs than 32 bit software offers I wanted to switch to 64 bit.  After many hours and sleepless nights searching the internet and trying out various things I finally found a way to use Armadillo in 64 bit projects with really fast LAPACK and BLAS libraries.  The trick is to tunnel through Scilab, a very professional but free Matlab clone. This step-by-step guidance of how to do that is written in the hope of saving others this work and enabling them to optimally use Armadillo in 64 bit projects in Visual C++.   <o:p></o:p></span></b></p>
+
+Here we go:<br>
+If you do not have Visual Studio Express 2012 for Windows desktop you can obtain a free copy here: <a target="_blank" href="http://www.microsoft.com/visualstudio/eng/downloads#d-2012-express">http://www.microsoft.com/visualstudio/eng/downloads#d-2012-express </a>.
+If you do not have Armadillo go to <a target="_blank" href="http://arma.sourceforge.net/">http://arma.sourceforge.net/ </a>, download it and extract it.  It does not have to be installed.
+Download Scilab <a target="_blank" href="http://www.scilab.org/">http://www.scilab.org/ </a> and download and install the version for Windows 64 bit.<br><br>
+Note: When installing Scilab you can chose "Blas, Lapack Reference Library for Scilab" in "Custom installation".   The default is using the "Intel Math Kernel Library", which is somewhat faster.  Both options work for the description below.  Otherwise, just use the defaults. <br><br>
+For simplicity we name our project "ex2-64" and assume that we are using Armadillo version 3.800.2 in "c:\armadillo-3.800.2"  and Scilab version 5.4.1 installed in "c:\Program files\scilab-5.4.1".  For other setups adapt the instructions in the obvious way.  Text to be added in fields is written in quotation marks.  The text is to be added without the quotation marks. <br><br>
+First we add the folder "c:\Program Files\scilab-5.4.1\bin" (where the .dll-files in Scilab are) to our "PATH" variable.  To do that click the "Start button" down left (the Windows logo), select "Computer->System properties->Advanced system settings->Environment Variables".  In "System variables" double click "Path" and add the bin folder of Scilab, i.e. "c:\Program Files\scilab-5.4.1\bin;",  to the field.  You will have to restart Visual C++ for these changes to "PATH" to take effect in your projects.<br><br>
+As an example we describe step-by-step how to let Example2 included with Armadillo work in 64 bit. This can be used as a model to create other projects. First, make sure that you have uncommented "#define ARMA_USE_LAPACK",  "#define ARMA_USE_BLAS", and "#define ARMA_BLAS_UNDERSCORE" in the file "c:\armadillo-3.800.2\include\armadillo_bits\config.hpp". <br><br>
+Open Visual Studio Express 2012:  Click "New Project" and select "Visual C++" and "Win32 Console Application" (not a typo, we make a 64 bit project by changing the settings of a 32 bit console application). Give the project the name "ex2-64" and put it in a folder of your desires.  Click "Next->Next", then select "Console application" and "Empty project".  Uncheck "Security Development Lifecycle (SDL) checks" and click "finish".  Right click "Source Files" and the click "Add->Existing Item" and browse to "c:\armadillo-3.800.2\examples\example2.cpp" and select it.  This makes "example2.cpp" a part of the project.<br><br>
+Now we set the properties of the project.  Click "DEBUG->ex2-64 Properties" and click "Configuration Manager" to the right.  Under Platform click the drop list next to "Win32" and select "New".  Make sure that "Copy settings from:" is set to "Win32" and that "Create new solution platforms" is checked.  Now x64 should be selected and thus the project compiles to a 64 bit executable.  Set the "Active solution configuration:" to "Release" and have "Build" selected and "Deploy" unselected.  Close the window.  Now we are back to the "ex2-64 Property pages". Change the configuration up left to "All Configurations".  <br><br>
+Go to "Configuration Properties". From now on we will be changing setting there, i.e. in "Configuration Properties".   Go to "General" and make sure that "Whole Program Optimization" is set to "No Whole Program Optimization". Go to "Debugging" and make sure that "Debugger to launch" is set to "Local Windows Debugger".  Go to "VC++ Directories" and add "c:\armadillo-3.800.2\include;"  to "Include Directories".  You have to press "Enter/Return" for the changes to take effect, here and in all subsequent changes.  Always check if the changes were successful.<br><br>
+ At "Linker-> General" add "c:\Program files\scilab-5.4.1\bin;"  to "Additional Library Directories".  At "Linker->Input->Additional Dependencies" add "blasplus.lib;lapack.lib;"
+Now the project should be ready.  Close the "ex2-64 Property Pages" by clicking on "OK".  Make sure that the drop lists in the middle are set to "Release" and "x64".  To test if everything went fine compile it and run by pressing Ctrl+F5 or clicking "DEBUG->Start Without Debugging".
+Note, if you made a mistake somewhere, you might consider starting again from scratch changing the settings, i.e. make a new project.
+<br><br>
+Some comments:<br>
+The 64 bit LAPACK and BLAS from Scilab are considerably faster (about 2-3 times according to my tests) than the 32 bit .dll-files delivered with Armadillo.<br><br>
+First I tried to use downloadable .lib- and .dll-files for LAPACK and BLAS from <a target="_blank" href="http://icl.cs.utk.edu/lapack-for-windows/lapack/"> http://icl.cs.utk.edu/lapack-for-windows/lapack/</a>.  The .lib-files were faulty but I found out how to make new ones at <a target="_blank" href="http://adrianhenke.wordpress.com/2008/12/05/create-lib-file-from-dll/">http://adrianhenke.wordpress.com/2008/12/05/create-lib-file-from-dll/ </a>.  By adding a few .dll-files from builds of MinGW-w64 <a target="_blank" href="http://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/"> http://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/ </a> it  worked but matrix calculations are very slow.  Matrix inversions and singular value decompositions for random 1000 times 1000 matrices are e.g. about 8-15 times slower than with LAPACK and BLAS from Scilab.<br><br>
+I also use GLPK <a target="_blank" href="http://www.gnu.org/software/glpk/">http://www.gnu.org/software/glpk/</a> for my projects.  It is much easier to include GLPK in a Visual C++ project than Armadillo with 64 bit LAPACK and BLAS.  Downloadable 64 bit .dll- and .lib-files are obtainable at <a target="_blank" href="http://winglpk.sourceforge.net/">http://winglpk.sourceforge.net/</a>.  For example, to include GLPK in our project "ex2-64" we could  just copy glpk_4_48.lib and glpk_4_48.dll (or newer versions if available) to the folder "..\ex2-64\ex2-64" and add "glpk_4_48.lib;", like we added "blasplus.lib;lapack.lib;", to the project.  Putting "glpk.h" in the same folder as the .cpp-source files finishes the job.<br><br>
+If you use this hack to use Armadillo with LAPAK and BLAS from Scilab you should consider, as a matter of courtesy, to cite and acknowledge both projects in your publications. For instructions of how to cite Armadillo see <a target="_blank" href="http://arma.sourceforge.net/docs.html">http://arma.sourceforge.net/docs.html </a>(top right) and on how to cite Scilab see <a target="_blank" href="http://www.scilab.org/resources/documentation/community/cite">http://www.scilab.org/resources/documentation/community/cite</a>.<br><br>
+
+I have also written a rather detailed description of how to include 32 bit Armadillo in a Visual C++ project as a part of a conference paper <a href="SCImplementationShort.pdf">Implementation of Simplicial Complexes for CPA functions in C++11 using the Armadillo Linear Algebra Library.
+    In: Proceedings of SIMULTECH 2013, Reykjavik, Iceland, pp. 49-57 </a><br><br>  I am very interested in methods to compute Lyapunov functions and contraction metrics for dynamical systems.  If that sounds interesting to you, you might want to have a look at my publications: <a target="_blank" href="http://www.ru.is/kennarar/sigurdurh/PublicationsSFH.htm">http://www.ru.is/kennarar/sigurdurh/PublicationsSFH.htm</a>.<br><br>
+
+
+ <a target="_blank" href="http://www.ru.is/kennarar/sigurdurh/index.htm">Sigurdur F. Hafstein</a>, <br>
+University of Iceland, <br>
+Iceland <br><br><br>
+
+
+</body></html>
